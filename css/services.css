@@ -446,6 +446,9 @@ footer #emailAddress{
         margin: 0px auto;
     }
 
+    footer{
+        width: 800px;
+    }
     .navigationBar{
         width: 800px;
         flex-direction: column-reverse;
@@ -461,76 +464,95 @@ footer #emailAddress{
         margin: 0px auto;
         z-index: +2;
     }
-
-    #motto{
-        margin: 0px auto;
-        left: 75px;
-    }
-
-    #headerIMG{
-        display: none;
-    }
-
-    #topContent{
+    #servicesTopSection{
         width: 800px;
-        padding-bottom: 115px;
+        margin-top: 150px;
     }
-
-    #getStartedBtn{
+    .services-header-img{
+        width: 770px;
+        background-size: contain;
+    
+    }
+    #servicesTopSection h1{
         position: relative;
-        left: -320px;
-        height: 35px;
-        top: 280px;
-
+        left: 15px;
+    }
+    #servicesTopSection p{
+        width: 735px;
+        position: relative;
+        left: 15px;
     }
 
-    hr{
-        width: 780px;
-        margin: 0px auto;
+    #hrTopSection{
+        width: 750px;
+        margin: 20px auto;
+        border: 1px solid black;
+        position: relative;
+        left: -20px;
     }
 
-    #middleInfoTopSection{
+    .midSection{
+        width: 765px;
+        justify-content: space-around;
+    }
+
+    .serviceCardDesign{
+        width: 325px;
+        height: 300px;
+    }
+
+    .serviceCardDesign p{
+        height: 175px;
+        width: 290px;
+        margin-bottom: 0px;
+    }
+
+    #androidDevelopmentBtn{
+        position: relative;
+        bottom: 20px;
+    }
+
+    #hrBottomSection{
+        width: 750px;
+        margin: 20px auto;
+        border: 1px solid black;
+        position: relative;
+        left: -20px;
+    }
+
+    #bottomSectionServices{
+        flex-direction: column;
         width: 800px;
-        justify-content: space-between;
-        width: 93%;
-        align-content: flex-start;
+    }
+    #bottomSectionServices #factsSection{
+        width: 800px;
+    }
+    #bottomSectionServices #factsSection p{
+        position: relative;
+        left: 20px;
+        width: 725px;
+    }
+    #bottomSectionServices #factsSection h2{
         position: relative;
         left: 20px;
     }
 
-    .middle-img{
-        width: 775px;
+    #keyFeaturesBullets{
+        margin-bottom: 50px;
+    }
+    #keyFeaturesBullets li{
+        margin: 0px auto;
         position: relative;
-        left: 3px;
+        left: 20px;
     }
 
-    #middleInfoBottomSection{
-        width: 775px;
-        justify-content: space-around;
-        position: relative;
-        left: 10px;
- 
+    .services-info-img{
+        width: 500px;
+        margin: 0px auto;
     }
 
-    #servicesInfo p{
-        width: 86%;
-        height: 150px;
-    }
-
-    #productInfo p{
-        width: 86%;
-        height: 150px;
-    }
-
-    #visionInfo p{
-        width: 86%;
-        height: 150px;
-    }
-
-    footer{
+    #copyrightSection{
         width: 800px;
-        margin-top: 20px;
-        padding: 15px;
     }
 }
 
@@ -635,7 +657,29 @@ footer #emailAddress{
         left: -9px;
     }
 
-    
+    #bottomSectionServices{
+        width: 500px;
+        flex-direction: column;
+    }
+    #bottomSectionServices p{
+        width: 450px;
+    }
+
+    #keyFeaturesBullets{
+        width: 250px;
+    }
+
+    .services-info-img{
+        width: 475px;
+        background-size: contain;
+        position: relative;
+        left: -11px;
+        margin-top: 25px;
+    }
+
+    #copyrightSection{
+        width: 500px;
+    }
 }
 
 
