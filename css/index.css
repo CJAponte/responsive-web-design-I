@@ -541,8 +541,10 @@ footer #emailAddress{
     }
      hr{
          margin: 25px auto;
-         border-top: 1px solid black;
-         width: 500px;
+         border: 1px solid black;
+         width: 475px;
+         position: relative;
+         left: -9px;
      }
 
      footer{
@@ -604,15 +606,63 @@ footer #emailAddress{
         left: -170px;
     }
 
-    hr{
-        
-    }
-
     #topContent{
         width: 500px;
         padding-bottom: 115px;
     }
 
+    #middleInfoTopSection{
+        width: 500px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #featuresInfo{
+        margin-bottom: 45px;0
+    }
+
+    #featuresInfo p{
+        width: 450px;
+    }
+
+    #aboutInfo p{
+        width: 450px;
+    }
+
+    .middle-img{
+        width: 475px;
+        height: 75px;
+        background-size: contain;
+        margin: 0px auto;
+        position: relative;
+        left: -9px;
+    }
+
+    #middleInfoBottomSection{
+        width: 500px;
+        flex-direction: column;
+        justify-content: space-between;
+        left: 20px;
+    }
+
+    #servicesInfo p{
+        width: 450px;
+        height: 65px;
+    }
+    #productInfo{
+        margin-top: 45px;
+    }
+    #productInfo p {
+        width: 450px;
+        height: 65px
+    }
+    #visionInfo{
+        margin-top: 45px;
+    }
+    #visionInfo p{
+        width: 450px;
+        height: 75px
+    }
 }
 
 
